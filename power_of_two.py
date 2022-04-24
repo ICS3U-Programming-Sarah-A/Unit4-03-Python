@@ -3,7 +3,7 @@
 # Created by: Sarah
 # Created on: Apr, 20, 2022
 # This program asks the user to enter a number. It then displays the
-# power of two of each number from 0 until that number using for loops.
+# square of each number from 0 until that user_number using for loops.
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
     try:
         # converts user input to integer
         user_number_int = int(user_number_string)
-        # calculate the power of counter using a for loop.
+        # calculate the square of each number, from 0 to user number.
         if user_number_int >= 0:
             for counter in range(user_number_int + 1):
                 power_of_two = counter**2
